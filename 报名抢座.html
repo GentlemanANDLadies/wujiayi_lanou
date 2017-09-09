@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>报名抢座-蓝鸥</title>
+		<link rel="stylesheet" type="text/css" href="css/re.css"/>
+		<link rel="stylesheet" type="text/css" href="css/baoming.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pub.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="head">
+			<div id="header">
+				<div id="header_in">
+					<div id="index_top_le">蓝鸥旗下品牌：<a href="###">鸥课学院</a></div>
+					<div id="index_top_ri">
+						<img src="img/top_tel.png"/>
+						全国咨询电话：
+						<span>010-59418771</span>
+					</div>
+				</div>
+			</div>
+			<div id="nav">
+				<div id="nav_in">
+					<div id="logo_le">
+						<a href="###"><img src="img/58eedf62357cd.png"/></a>
+					</div>
+					<a id="check">全国校区</a>
+					<div id="checkCity">
+						<span>切换城市</span>
+						<div id="select" style="display: none;opacity: 0;">
+							<ul class="clearfix">
+								<li id="city-home" class="fl"><a href="###">
+									<span></span>
+									<p>蓝鸥主站</p>
+								</a></li>
+								<li id="city-bj" class="fl"><a href="###">
+									<span></span>
+									<p>北京</p>
+								</a></li>
+								<li id="city-dl" class="fl"><a href="###">
+									<span></span>
+									<p>大连</p>
+								</a></li>
+								<li id="city-zz" class="fl"><a href="###">
+									<span></span>
+									<p>郑州</p>
+								</a></li>
+								<li id="city-sh" class="fl"><a href="###">
+									<span></span>
+									<p>上海</p>
+								</a></li>
+								<li id="city-gz" class="fl"><a href="###">
+									<span></span>
+									<p>广州</p>
+								</a></li>
+								<li id="city-xa" class="fl"><a href="###">
+									<span></span>
+									<p>西安</p>
+								</a></li>
+								<li id="city-wh" class="fl"><a href="###">
+									<span></span>
+									<p>武汉</p>
+								</a></li>
+								<li id="city-cd" class="fl"><a href="###">
+									<span></span>
+									<p>成都</p>
+								</a></li>
+								<li id="city-sjz" class="fl"><a href="###">
+									<span></span>
+									<p>石家庄</p>
+								</a></li>
+								<li id="city-heb" class="fl"><a href="###">
+									<span></span>
+									<p>哈尔滨</p>
+								</a></li>
+								<li id="city-college" class="fl"><a href="###">
+									<span></span>
+									<p>鸥课学院</p>
+								</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="nav_ri">
+						<ul>
+							<li><a href="index.html" class="ri" target="_blank">首页</a></li>
+							<li><a href="就业喜报.html" style="color: #e91122;" target="_blank">就业喜报</a><img src="img/hot.gif"/></li>
+							<li><a href="名师团队.html" class="ri" target="_blank">名师团队</a></li>
+							<li><a href="ouke.html" class="ri" target="_blank">免费公开课</a></li>
+							<li><a href="报名抢座.html" style="color: #e91122;" target="_blank">报名抢座</a><img src="img/hot.gif"/></li>
+							<li><a href="关于我们.html" class="ri" target="_blank">关于我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="title">
+			<!--<img src="img/58ef3ec0c9ed9.jpg"/>-->
+		</div>
+		<div id="list">
+			<div id="listtitle">
+				<div id="titleleft"></div>
+				<h1>全国开班信息</h1>
+				<select name="add" id="ipadd">
+					<option value="全部校区">全部校区</option>
+					<option value="北京校区">北京校区</option>
+					<option value="上海校区">上海校区</option>
+					<option value="大连校区">大连校区</option>
+					<option value="郑州校区">郑州校区</option>
+					<option value="广州校区">广州校区</option>
+					<option value="西安校区">西安校区</option>
+					<option value="武汉校区">武汉校区</option>
+					<option value="成都校区">成都校区</option>
+					<option value="石家庄校区">石家庄校区</option>
+					<option value="哈尔滨校区">哈尔滨校区</option>
+				</select>
+				<select name="xueke" id="ipxueke">
+					<option value="全部学科">全部学科</option>
+					<option value="JavaEE">JavaEE</option>
+					<option value="大数据">大数据</option>
+					<option value="PHP">PHP</option>
+					<option value="VR/AR/游戏">VR/AR/游戏</option>
+					<option value="HTML5">HTML5</option>
+					<option value="Android">Android</option>
+					<option value="Web安全">Web安全</option>
+					<option value="VD视觉">VD视觉</option>
+					<option value="产品经理">产品经理</option>
+					<option value="新媒体运营">新媒体运营</option>
+					<option value="职业导师">职业导师</option>
+					<option value="iOS">iOS</option>
+					<option value="3D游戏">3D游戏</option>
+					<option value="UI设计">UI设计</option>
+				</select>
+				<input type="button" name="search" id="search" value="查找" />
+			</div>
+			<div id="message">
+				<div id="mestitle">
+					<h1 style="width: 174px;">学科</h1>
+					<h1 style="width: 256px;">开班地点</h1>
+					<h1 style="width: 256px;">开班状态</h1>
+					<h1 style="width: 256px;">开班时间</h1>
+					<h1 style="width: 256px;">点击报名</h1>
+				</div>
+				<table>
+					<tbody>
+						<tr>
+							<td style="width: 174px;" class="td1">HTML5</td>
+							<td style="width: 256px;" class="td2">上海校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-04</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">Web安全</td>
+							<td style="width: 256px;" class="td2">北京校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-03</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">JavaEE</td>
+							<td style="width: 256px;" class="td2">石家庄校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-03</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">UI设计</td>
+							<td style="width: 256px;" class="td2">武汉校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-04</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">VR/AR/游戏</td>
+							<td style="width: 256px;" class="td2">哈尔滨校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-05</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">HTML5</td>
+							<td style="width: 256px;" class="td2">上海校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-04</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">Web安全</td>
+							<td style="width: 256px;" class="td2">北京校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-03</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">JavaEE</td>
+							<td style="width: 256px;" class="td2">石家庄校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-03</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">UI设计</td>
+							<td style="width: 256px;" class="td2">广州校区</td>
+							<td style="width: 256px;">
+								<div></div>火热报名
+							</td>
+							<td style="width: 256px;">2017-07-04</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">VR/AR/游戏</td>
+							<td style="width: 256px;" class="td2">武汉校区</td>
+							<td style="width: 256px;">
+								<div></div>火热报名中
+							</td>
+							<td style="width: 256px;">2017-07-05</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">HTML5</td>
+							<td style="width: 256px;" class="td2">上海校区</td>
+							<td style="width: 256px;">
+								<div></div>火热报名中
+							</td>
+							<td style="width: 256px;">2017-07-04</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">Web安全</td>
+							<td style="width: 256px;" class="td2">石家庄校区</td>
+							<td style="width: 256px;">
+								<div></div>火热报名中
+							</td>
+							<td style="width: 256px;">2017-07-03</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">JavaEE</td>
+							<td style="width: 256px;" class="td2">石家庄校区</td>
+							<td style="width: 256px;">
+								<div></div>已报满
+							</td>
+							<td style="width: 256px;">2017-07-03</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">UI设计</td>
+							<td style="width: 256px;" class="td2">北京校区</td>
+							<td style="width: 256px;">
+								<div></div>火热报名中
+							</td>
+							<td style="width: 256px;">2017-07-04</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+						<tr>
+							<td style="width: 174px;" class="td1">VR/AR/游戏</td>
+							<td style="width: 256px;" class="td2">上海校区</td>
+							<td style="width: 256px;">
+								<div></div>火热报名中
+							</td>
+							<td style="width: 256px;">2017-07-05</td>
+							<td style="width: 256px;">
+								<a href="###">立即报名</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>			
+			
+			
+			
+			
+			
+		</div>
+		<a href="http://www.lanou3g.com/zt/JavaEE/index.html" id="aa">
+			<!--<img src="img/58e6f82de0e12.jpg"/>-->
+		</a>
+		
+		
+		<!--报名-->
+		<div id="baoming">
+			<div id="seat">
+				<div id="seatleft"></div>
+				<h1>班级座位有限，预报名可享有优先占座权</h1>
+			</div>
+			<div id="message">
+				<div id="name">
+					<div id="name1">
+						<span class="star">*</span>
+						<span class="name">真实姓名</span>
+					</div>
+					<input type="text" name="name" id="ipname" value="" placeholder="我们期待了解您"/>
+					<span class="error1" style="display: none;">请输入正确的格式</span>
+				</div>
+				<div id="tele">
+					<div id="tele1">
+						<span class="star">*</span>
+						<span class="tele">联系手机</span>
+					</div>
+					<input type="text" name="tele" id="iptele" value="" placeholder="我们和您一样讨厌骚扰电话"/>
+				</div>
+				<div id="add">
+					<div id="add1">
+						<span class="star">*</span>
+						<span class="add">上课地址</span>
+					</div>
+					<select name="add" id="ipadd">
+						<option value="北京校区">北京校区</option>
+						<option value="上海校区">上海校区</option>
+						<option value="大连校区">大连校区</option>
+						<option value="郑州校区">郑州校区</option>
+						<option value="广州校区">广州校区</option>
+						<option value="西安校区">西安校区</option>
+						<option value="武汉校区">武汉校区</option>
+						<option value="成都校区">成都校区</option>
+						<option value="石家庄校区">石家庄校区</option>
+						<option value="哈尔滨校区">哈尔滨校区</option>
+					</select>
+					<span class="error2">请选择</span>
+				</div>
+				<div id="qq">
+					<div id="qq1">
+						<span class="star">*</span>
+						<span class="qq">QQ号码</span>
+					</div>
+					<input type="text" name="qq" id="ipqq" value="" placeholder="我们将尽快联系您为您服务"/>
+				</div>
+				<input type="submit" name="submit" id="ipsubmit" value="立 即 报 名" />
+				<div id="tishi">温馨提示：请您保持电话畅通，咨询老师将在最快的时间内，为您提供专属一对一报名服务</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<!--尾部-->
+		<div id="foot">
+			<div id="footer">
+				<div id="footer_top">
+					<div id="about">
+						<p>关于蓝鸥</p>
+						<ul>
+							<li><a href="###">蓝鸥简介</a></li>
+							<li><a href="###">发展历程</a></li>
+							<li><a href="###">报名抢座</a></li>
+							<li><a href="###">联系我们</a></li>
+						</ul>
+					</div>
+					<div id="xqfb">
+						<p>校区分布</p>
+						<ul>
+							<li><a href="###">北京校区</a></li>
+							<li><a href="###">大连校区</a></li>
+							<li><a href="###">郑州校区</a></li>
+							<li><a href="###">上海校区</a></li>
+							<li><a href="###">广州校区</a></li>
+							<li><a href="###">西安校区</a></li>
+							<li><a href="###">武汉校区</a></li>
+							<li><a href="###">成都校区</a></li>
+							<li><a href="###">石家庄校区</a></li>
+							<li><a href="###">哈尔滨校区</a></li>
+						</ul>
+					</div>
+					<div id="xxzy">
+						<p>学习资源</p>
+						<ul>
+							<li><a href="###">免费课程</a></li>
+							<li><a href="###">公开课</a></li>
+							<li><a href="###">学习中心</a></li>
+						</ul>
+					</div>
+					<div id="gddt">
+						<p>更多动态</p>
+						<ul>
+							<li><img src="img/index_ewm.jpg"/><p>微信二维码</p></li>
+							<li><img src="img/weibo.jpg"/><p>微信二维码</p></li>
+						</ul>
+					</div>
+				</div>
+				<div id="footer_dw">
+					Copyright © 2012-2017 蓝鸥科技有限公司,All Rights Reserved.京ICP备12045384号-1 
+					<a href="###">站长统计</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pub.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/baoming.js" type="text/javascript" charset="utf-8"></script>
+</html>

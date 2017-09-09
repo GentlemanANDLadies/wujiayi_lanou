@@ -1,0 +1,609 @@
+#title1{
+	background: url(../iong/58ef3ec0c9ed9.jpg);
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+}
+#gongzi{
+	width: 1200px;
+	height: 247px;
+	margin: 30px auto 0px;
+}
+#money{
+	width: 1200px;
+	height: 217px;
+	margin-bottom: 30px;
+	margin: 0 auto;
+}
+#xinzi li{
+	width: 285px;
+	height: 217px;
+	float: left;
+}
+#xinzi .li1 span{
+	width: 85px;
+	height: 75px;
+	background: url(../img/money.png) 0px 0px no-repeat;
+	margin-left: 99px;
+	margin-top: 40px;
+	display: block;
+}
+#xinzi .li1 strong{
+	width: 285px;
+	height: 28px;
+	margin-top: 22px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+}
+#xinzi .li1 em{
+	width: 285px;
+	height: 28px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+	font-style: normal;
+}
+#xinzi .li2 span{
+	width: 90px;
+	height: 80px;
+	background: url(../img/money.png) -94px 0px no-repeat;
+	margin-left: 96px;
+	margin-top: 37px;
+	display: block;
+}
+#xinzi .li2 strong{
+	width: 285px;
+	height: 28px;
+	margin-top: 22px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+}
+#xinzi .li2 em{
+	width: 285px;
+	height: 28px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+	font-style: normal;
+}
+#xinzi .li3 span{
+	width: 88px;
+	height: 88px;
+	background: url(../img/money.png) -198px 0px no-repeat;
+	margin-left: 99px;
+	margin-top: 33px;
+	display: block;
+}
+#xinzi .li3 strong{
+	width: 285px;
+	height: 28px;
+	margin-top: 16px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+}
+#xinzi .li3 em{
+	width: 285px;
+	height: 28px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+	font-style: normal;
+}
+#xinzi .li4 span{
+	width: 93px;
+	height: 80px;
+	background: url(../img/money.png) -305px 0px no-repeat;
+	margin-left: 96px;
+	margin-top: 38px;
+	display: block;
+}
+#xinzi .li4 strong{
+	width: 285px;
+	height: 28px;
+	margin-top: 22px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+}
+#xinzi .li4 em{
+	width: 285px;
+	height: 28px;
+	line-height: 28px;
+	color: white;
+	text-align: center;
+	display: block;
+	font-style: normal;
+}
+#xyxixun{
+	width: 1905px;
+	height: 622px;
+	background: #eeeeee;
+}
+#xixun{
+	width: 1200px;
+	height: 635px;
+	margin: 0 auto;
+}
+#xixun #top{
+	width: 1200px;
+	height: 23px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+#xixun #top span{
+	width: 30px;
+	height: 23px;
+	margin-right: 13px;
+	display: block;
+	float: left;
+	background: url(../img/xixun.png) 0px -3px no-repeat;
+}
+#xixun #top h2{
+	width: 93px;
+	height: 20px;
+	float: left;
+	line-height: 20px;
+	color: #444444;
+	font-size: 23px;
+}
+#xixun #left{
+	width: 762px;
+	height: 554px;
+	padding-top: 18px;
+	float: left;
+}
+#xixun #left #imgleft{
+	width: 420px;
+	height: 434px;
+}
+#xixun #left #imgleft #img1{
+	width: 243px;
+	height: 434px;
+	margin: 30px 88.5px;
+	position: relative;
+}
+#xixun #left #imgleft #img1 img{
+	position: absolute;
+	width: 243px;
+	height: 432px;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	transition: all .3s;
+}
+#xixun #right{
+	width: 390px;
+	height: 518px;
+	padding-top: 36px;
+	padding-left: 48px;
+	float: right;
+}
+#xixun #right #p1{
+	width: 390px;
+	height: 102px;
+	font-size: 32px;
+	color: #333333;
+	line-height: 51px;
+}
+#xixun #right #img2{
+	width: 336px;
+	height: 44px;
+	margin: 14px 0px 20px 0px;
+}
+#xixun #right #p2{
+	width: 390px;
+	height: 252px;
+	font-size: 19px;
+	color: #333333;
+	line-height: 36px;
+}
+#jyxibao{
+	width: 1200px;
+	height: 934px;
+	margin: 0 auto;
+}
+#jyxibao #top{
+	width: 1200px;
+	height: 32px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+#jyxibao #top span{
+	width: 31px;
+	height: 30px;
+	margin-right: 13px;
+	display: block;
+	float: left;
+	background: url(../img/xixun.png) -44px 0px no-repeat;
+}
+#jyxibao #top h2{
+	width: 93px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	color: #444444;
+	font-size: 23px;
+}
+#jyxibao #title{
+	width: 1200px;
+	height: 51px;
+	margin-top: 13px;
+	margin: 0 auto;
+	position: relative;
+}
+#jyxibao #title #line{
+	width: 1200px;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	top: 49px;
+	background: #999999;
+}
+#jyxibao #title ul{
+	width: 1200px;
+	height: 51px;
+	position: relative;
+	z-index: 20;
+}
+#jyxibao #title ul li{
+	width: 105px;
+	height: 47px;
+	float: left;
+	font-size: 18px;
+	line-height: 47px;
+	text-align: center;
+	cursor: pointer;
+	color: #444444;
+}
+#jyxibao #title ul .li1{
+	color: #ff3f52;
+	border-bottom: 4px solid #ff3146;
+}
+#jyxibao #list{
+	width: 1200px;
+	height: 720px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+#jyxibao #list #listname{
+	width: 1200px;
+	height: 40px;
+	background: #36a8ff;
+}
+#jyxibao #list #listname ol li{
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+#jyxibao #list #listcontent{
+	width: 1200px;
+	height: 680px;
+	overflow: hidden;
+	position: relative;
+}
+#jyxibao #list #listcontent ul{
+	position: absolute;
+	top: 0;
+	display: none;
+}
+#jyxibao #list #listcontent ul li{
+	width: 1200px;
+	height: 45px;
+	font-size: 14px;
+}
+#jyxibao #list #listcontent div{
+	width: 1200px;
+	height: 44px;
+	border-bottom: solid 1px #aaaaaa;
+	line-height: 44px;
+	color: #333333;
+}
+#jyxibao #list #listcontent div p{
+	float: left;
+	color: #666666;
+	text-align: center;
+}
+#baoming{
+	width: 1905px;
+	background: #eeeeee;
+	overflow: hidden;
+}
+#baoming #seat{
+	width: 682px;
+	height: 131px;
+	margin: 20px auto 0px;
+}
+#baoming #seat #seatleft{
+	width: 77px;
+	height: 111px;
+	float: left;
+	background: url(../img/tet_sprit01.png) 0 0 no-repeat;
+	background-position: -1px -1044px;
+}
+#baoming #seat h1{
+	width: 540px;
+	height: 111px;
+	margin: 0px 0 0 8px;
+	color: #444444;
+	line-height: 111px;
+	float: left;
+	font-weight: bold;
+	font-size: 30px;
+}
+#baoming #message{
+	width: 1200px;
+	height: 331px;
+	padding-top: 52px;
+	margin: 0 auto 60px;
+	border-radius: 3px;
+	background: white;
+}
+#baoming #message #name{
+	width: 505px;
+	height: 55px;
+	margin-left: 66px;
+	float: left;
+	position: relative;
+}
+#baoming #message #name #name1{
+	width: 107px;
+	height: 53px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #444444;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 53px;
+}
+#baoming #message #name #name1 .star{
+	font-size: 16px;
+	color: #FF0000;
+	margin-right: 18px;
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+#baoming #message #name #name1 .name{
+	margin-left: 26px;
+}
+#baoming #message #name #ipname{
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	background: #f3f4f8;
+	width: 340px;
+	height: 53px;
+	line-height: 53px;
+	border: solid 1px #bdbcbc;
+	padding-left: 25px;
+	margin-left: 28px;
+	border-radius: 3px;
+	font-family: inherit;
+}
+#baoming #message #name .error1{
+	width: 112px;
+	height: 19px;
+	color: #FF0000;
+	font-size: 14px;
+	position: absolute;
+	left: 163px;
+	top: 58px;
+	font-weight: bold;
+	display: none;
+}
+#baoming #message #tele{
+	width: 505px;
+	height: 55px;
+	margin-left: 66px;
+	float: left;
+	position: relative;
+}
+#baoming #message #tele #tele1{
+	width: 107px;
+	height: 53px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #444444;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 53px;
+}
+#baoming #message #tele #tele1 .star{
+	font-size: 16px;
+	color: #FF0000;
+	margin-right: 18px;
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+#baoming #message #tele #tele1 .tele{
+	margin-left: 26px;
+}
+#baoming #message #tele #iptele{
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	background: #f3f4f8;
+	width: 340px;
+	height: 53px;
+	line-height: 53px;
+	border: solid 1px #bdbcbc;
+	padding-left: 25px;
+	margin-left: 28px;
+	border-radius: 3px;
+	font-family: inherit;
+}
+#baoming #message #add{
+	width: 505px;
+	height: 55px;
+	margin-left: 66px;
+	margin-top: 30px;
+	float: left;
+	position: relative;
+}
+#baoming #message #add #add1{
+	width: 107px;
+	height: 53px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #444444;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 53px;
+}
+#baoming #message #add #add1 .star{
+	font-size: 16px;
+	color: #FF0000;
+	margin-right: 18px;
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+#baoming #message #add #add1 .add{
+	margin-left: 26px;
+}
+#baoming #message #add #ipadd{
+	width: 367px;
+	height: 53px;
+	padding: 7px 0px 7px 22px;
+	margin-left: 28px;
+	border: solid 1px rgb(204,204,204);
+	background: url(../img/mxy_apply.png) 95% 50% no-repeat scroll rgb(243,244,248);
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	border-radius: 3px;
+	-webkit-appearance: none;
+}
+#baoming #message #add #ipadd option{
+	line-height: 53px;
+}
+#baoming #message #add .error2{
+	width: 112px;
+	height: 19px;
+	color: #FF0000;
+	font-size: 14px;
+	position: absolute;
+	left: 163px;
+	top: 58px;
+	font-weight: bold;
+	display: none;
+}
+#baoming #message #qq{
+	width: 505px;
+	height: 55px;
+	margin-left: 66px;
+	margin-top: 30px;
+	float: left;
+	position: relative;
+}
+#baoming #message #qq #qq1{
+	width: 107px;
+	height: 53px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #444444;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 53px;
+}
+#baoming #message #qq #qq1 .star{
+	font-size: 16px;
+	color: #FF0000;
+	margin-right: 18px;
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+#baoming #message #qq #qq1 .qq{
+	margin-left: 26px;
+}
+#baoming #message #qq #ipqq{
+	float: left;
+	font-size: 18px;
+	color: #666666;
+	background: #f3f4f8;
+	width: 340px;
+	height: 53px;
+	line-height: 53px;
+	border: solid 1px #bdbcbc;
+	padding-left: 25px;
+	margin-left: 28px;
+	border-radius: 3px;
+	font-family: inherit;
+}
+#baoming #message #ipsubmit{
+	width: 367px;
+	height: 56px;
+	float: left;
+	color: white;
+	background: #4492dc;
+	font-size: 22px;
+	text-align: center;
+	line-height: 41px;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-top: 48px;
+	margin-left: 417px;
+	font-family: inherit;
+	border: 0px;
+}
+#baoming #message #ipsubmit:hover{
+	background: #2886f7;
+}
+#baoming #message #tishi{
+	width: 1200px;
+	height: 71px;
+	color: #666666;
+	text-align: center;
+	float: left;
+	margin-top: 16px;
+}
+@media only screen and (max-width: 1200px) {
+	#gongzi{width: 1200px;}
+	#title1{width: 1200px;}
+	#xyxixun{width: 1200px;}
+	#baoming{width: 1200px;}
+	#head{width: 1200px;}
+	#jyxibao{width: 1200px;}
+}
+@media only screen and (min-width: 1200px){
+	#gongzi{width: 100%;}
+	#title1{width: 100%;}
+	#xyxixun{width: 100%;}
+	#baoming{width: 100%;}
+	#head{width: 100%;}
+	#jyxibao{width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
